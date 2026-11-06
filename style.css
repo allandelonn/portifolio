@@ -169,7 +169,6 @@ body {
   z-index: 5;
 }
 
-/* Troca das seções */
 
 body:has(#trabalho:target) #trabalho,
 body:has(#quem-sou:target) #quem-sou,
@@ -181,13 +180,11 @@ body:has(.pagina:target) #home {
   display: none;
 }
 
-/* HOME */
 
 body:not(:has(.pagina:target)) #home {
   display: flex;
 }
 
-/* Celular */
 
 @media (max-width: 768px) {
   .cabecalho {
